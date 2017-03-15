@@ -1,0 +1,25 @@
+[{
+	"name": "Homeboy",
+	"belt": "green",
+	"rate": 50,
+	"available": true,
+	"thumb": "content/img/A.png"
+}, {
+	"name": "Tomboy",
+	"belt": "black",
+	"rate": 150,
+	"available": true,
+	"thumb": "content/img/NinjaStar.png"
+}, {
+	"name": "Homeslice",
+	"belt": "yellow",
+	"rate": 15,
+	"available": true,
+	"thumb": "content/img/TigerClawStar.jpeg"
+}, {
+	"name": "Chop Suey",
+	"belt": "red",
+	"rate": 100,
+	"available": true,
+	"thumb": "content/img/White_Ninja_Star.png"
+}]
