@@ -30,14 +30,14 @@ myNinjaApp.directive('randomNinja', [function(){
   return{
     restrict: 'E',
     scope: {
-      ninjas: '=',  // the equals sign binds the data and will find the attribute in the html
-      title: '=' //again finds in the directive and html and binds to it
+      ninjas: '=',  
+      title: '=' 
     },
-    templateUrl: 'views/random.html', //everytime the directive is call it will find this template to diplay
-    transclude: true,             //tells angular to include html between custom directive tags
-    replace: true,               //tells DOM to replace custom directive name with outer most tag to comply with DOM styles
+    templateUrl: 'views/random.html', 
+    transclude: true,
+    replace: true,               
     controller: function($scope){
-      $scope.random = Math.floor(Math.random() * 4); // *4 will generate one of the images between 0 and 3 with .floor rounding down
+      $scope.random = Math.floor(Math.random() * 4); 
     }
   }
 }]);

@@ -1,6 +1,6 @@
 RewriteEngine On
 
-	# If an existing asset or directory is requested to to it as it is
+	# If an existing asset or directory is requested to it as it is
 	RewriteCond %{DOCUMENT_ROOT}%{REQUEST_URI} -f [or]
 	RewriteCond %{DOCUMENT_ROOT}%{REQUEST_URI} -d 
 	RewriteRule ^ - [L]
