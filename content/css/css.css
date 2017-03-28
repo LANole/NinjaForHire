@@ -1,6 +1,7 @@
 body{
   font-family: Helvetica;
   margin: 0;
+  background: #C0C0C0; 
 }
 
 h1,h2,h3{
@@ -17,8 +18,8 @@ h1,h2,h3{
 }
 
 #menu-bar{
-  background: crimson;
-  color: #fff;
+  background: #808080;
+  color: #000000;
   padding: 10px;
 }
 
@@ -41,7 +42,7 @@ h1,h2,h3{
 }
 
 #menu-bar a{
-  color: #fff
+  color: #000000
 }
 
 main{
